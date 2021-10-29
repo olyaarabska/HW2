@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
         //First task
-        int a, b, w, q, r, l, z, c, v, i, y, x = 0;
+        int a, b, c, w, q, r, v, i, z, l, y, x;
         a = 5;
         b = 3;
         c = 2;
@@ -24,16 +24,17 @@ public class Main {
         System.out.println("x + y + z * c = " + result3);
 
         //Second task
-        char letterH = 72;
-        char letterE = 101;
-        char letterL = 108;
-        char letterO = 111;
-        char letterW = 119;
-        char letterR = 114;
-        char letterD = 100;
+        //char letterH = 72;
+        int letterH = 72;
+        int letterE = 101;
+        int letterL = 108;
+        int letterO = 111;
+        int letterW = 119;
+        int letterR = 114;
+        int letterD = 100;
 
-        System.out.println("" + letterH + letterE + letterL + letterL + letterO
-                + ' ' + letterW + letterO + letterR + letterL + letterD);
+        System.out.println("" + (char) letterH + (char) letterE + (char) letterL + (char) letterL + (char) letterO
+                + ' ' + (char) letterW + (char) letterO + (char) letterR + (char) letterL + (char) letterD);
 
         //Third task
         boolean result;
