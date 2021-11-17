@@ -92,7 +92,6 @@ public class HW3 {
             System.out.println(intArr[i]);
         }
     }
-
 }
 
 
